@@ -28,6 +28,6 @@ public class Main {
         Box<Orange> orangeBox = new Box<Orange>(oranges);
         System.out.println("Apple box weight: "+appleBox.getWeight());
         System.out.println("Orange box weight: "+orangeBox.getWeight());
-        System.out.println("Is ABW equals OBW: " + appleBox.compare(orangeBox));
+        System.out.println("Is ABW equals OBW: " + appleBox.compare(orangeBox));//
     }
 }
